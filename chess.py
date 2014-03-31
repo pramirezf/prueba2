@@ -24,7 +24,7 @@ WHITE, BLACK, UNDEFINED = range( 3 )
 def Opponent(colour):
 
     return not colour
-
+####
 PIECE_ABBREVIATIONS = "prnbqk."
 PAWN, ROOK, KNIGHT, BISHOP, QUEEN, KING, BLANK = PIECE_ABBREVIATIONS
 
